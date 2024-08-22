@@ -1,0 +1,14 @@
+# Python stuff
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Videofiles
+.mp4
+
+# Folders
+08_Web_Scraping_Python_Selenium_Local
+
+09_Kafka_Event_Streaming
+09_Kafka_Event_Streaming_Docker_Version

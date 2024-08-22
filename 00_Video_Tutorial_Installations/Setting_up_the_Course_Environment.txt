@@ -1,0 +1,46 @@
+#-----------------------------------------------------------------------------
+# Setting up the environment
+#-----------------------------------------------------------------------------
+
+Please first look at the video 'Conda_Environment_und_VSCode.mp4' in the folder '00_Video_Tutorial_Installation' (do not install any programs at this stage).
+
+Note that (other than shown in the video) we will work with Python 3.11 in this course (so please do not install any other Python versions).
+
+If you have watched the video, you can now follow the steps below:
+
+1.) Install the latest Anaconda version
+    Download-Link:  https://www.anaconda.com/download/success
+    On Windows, make sure that Anaconda is specified in your path under user variables
+    e.g.: C:\Users\your_username\AppData\Local\anaconda3\Scripts
+    See also: https://youtu.be/z84UIZy_qgE
+	
+2.) Install the latest version of Visual Studio Code and look at the introductional Video-Tutorials
+    Download-Link: https://code.visualstudio.com/download
+    Video-Tutorials: Visual Studio Code -> Menu -> Help -> Video-Tutorials
+    On Windows, make sure that Visual Studio Code is specified in your path under user variables
+    e.g.: C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\bin
+    See also: https://youtu.be/z84UIZy_qgE
+
+3.) Install the following extensions in Visual Studio Code
+    - Python
+    - Jupyter
+    - Docker
+    - PDF Preview
+    For details see the video 'Extensions' at:  https://code.visualstudio.com/docs/getstarted/introvideos
+    
+4.) Create a new conda environment and install the required Python libraries
+    In your Anaconda Prompt (Windows) or your Terminal (macOS), type the following:
+
+    conda info --envs                        # command lists all available conda environments
+    conda create -n daengenv python=3.11     # command creates a new conda environment named 'daengenv' with Python 3.11
+    conda activate daengenv                  # command activates the new conda environment
+    
+    Use pip to install the required packages in your activated conda environment.
+    For this, cd into the folder with the requirements.txt file.
+    Make sure that the requirements.txt file is available in that folder.
+    Make also sure that your conda environment 'daengenv' is activated.
+    To install the required Python packages listed in 'requirements.txt', type:
+
+    pip install -r requirements.txt
+
+5.) Follow the video tutorial in the Kafka folder to set up the Kafka environment.
