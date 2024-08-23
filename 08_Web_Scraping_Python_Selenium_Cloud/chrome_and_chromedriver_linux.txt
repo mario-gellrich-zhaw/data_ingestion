@@ -31,11 +31,11 @@ sudo apt install -y \
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
-# Check Google Chrome Version
-google-chrome --version
+# Get Google Chrome Version
+CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
 
-# Download and Install the Corresponding ChromeDriver
-wget https://storage.googleapis.com/chrome-for-testing-public/127.0.6533.88/linux64/chromedriver-linux64.zip
+# Download and Install the Corresponding ChromeDriver from: https://googlechromelabs.github.io/chrome-for-testing
+wget https://storage.googleapis.com/chrome-for-testing-public/$CHROME_VERSION/linux64/chromedriver-linux64.zip
 unzip chromedriver-linux64.zip
 cd chromedriver-linux64
 sudo mv chromedriver /usr/local/bin/
