@@ -1,5 +1,13 @@
 # Install Google Chrome and the corresponding ChromeDriver on Linux
 
+# Commands run this .sh (shell script) file (run in VSCode Terminal)
+# cd into the directory where 'install_chrome_and_chromedriver.sh' is located
+# chmod +x install_chrome_and_chromedriver.sh
+# ./install_chrome_and_chromedriver.sh
+
+# After installation, check wheter chromedriver is available in:
+# cd usr/local/bin
+
 # Update the Package List
 sudo apt update
 sudo apt install -y wget unzip
