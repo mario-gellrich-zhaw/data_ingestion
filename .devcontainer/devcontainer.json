@@ -1,9 +1,6 @@
 {
     "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": "."
-    },
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {
             "version": "latest",
