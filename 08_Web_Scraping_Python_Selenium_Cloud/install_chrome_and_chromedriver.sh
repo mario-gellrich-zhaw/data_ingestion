@@ -1,6 +1,6 @@
 # Install Google Chrome and the corresponding ChromeDriver on Linux
 
-# Commands run this .sh (shell script) file (run in VSCode Terminal)
+# Commands to run this .sh file (use VSCode Terminal)
 # cd into the directory where 'install_chrome_and_chromedriver.sh' is located
 # chmod +x install_chrome_and_chromedriver.sh
 # ./install_chrome_and_chromedriver.sh
