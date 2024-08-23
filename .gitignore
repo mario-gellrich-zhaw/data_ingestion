@@ -8,6 +8,8 @@ __pycache__/
 .mp4
 
 # Folders
+00_Video_Tutorial_Installations
+
 08_Web_Scraping_Python_Selenium_Local
 
 09_Kafka_Event_Streaming
