@@ -33,3 +33,5 @@ pytz
 prettytable
 pykafka
 flask
+feedparser
+wordcloud
