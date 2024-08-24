@@ -9,9 +9,9 @@ __pycache__/
 
 # Folders
 00_Video_Tutorial_Installations
-08_Web_Scraping_Python_Selenium_Local
-09_Kafka_Event_Streaming
-09_Kafka_Event_Streaming_Docker_Version
+09_Web_Scraping_Python_Selenium_Local
+10_Kafka_Event_Streaming
+10_Kafka_Event_Streaming_Docker_Version
 
 # Credentials
 04_Flickr_WebAPI/credentials.json
