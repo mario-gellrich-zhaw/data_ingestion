@@ -13,5 +13,5 @@ __pycache__/
 10_Kafka_Event_Streaming
 10_Kafka_Event_Streaming_Docker_Version
 
-# Credentials
+# Flickr credentials
 04_Flickr_WebAPI/credentials.json
