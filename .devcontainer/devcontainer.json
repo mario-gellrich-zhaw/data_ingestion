@@ -1,67 +1,30 @@
 {
-  "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
-  "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "features": {},
-
-  // 1) Make sure nothing thinks this is a Codespace
-  "remoteEnv": {
-    "CODESPACES": "false",
-    "CODESPACE_NAME": "",
-    "GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN": ""
-  },
-
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-python.python",
-        "ms-toolsai.jupyter",
-        "ms-azuretools.vscode-docker",
-        "ms-python.autopep8",
-        "ms-python.pylint",
-        "analytic-signal.preview-pdf",
-        "grapecity.gc-excelviewer",
-        "github.copilot",
-        "github.copilot-chat",
-        "mechatroner.rainbow-csv"
-      ],
-      "settings": {
-        "workbench.colorTheme": "Default Dark+",
-        "editor.rulers": [80],
-        "workbench.iconTheme": "vs-seti",
-
-        // 5) Force a clean terminal profile
-        "terminal.integrated.allowWorkspaceConfiguration": true,
-        "terminal.integrated.defaultProfile.linux": "bash",
-        "terminal.integrated.profiles.linux": {
-          "bash": { "path": "/bin/bash", "args": ["-l"] }
-        },
-        "terminal.integrated.shellIntegration.enabled": true
-      }
-    }
-  },
-
-  // Install your deps, then:
-  // - 4) create a no-op fallback script (safe if something still calls it)
-  "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh && mkdir -p /workspaces/.codespaces/shared && printf '#!/usr/bin/env node\\nprocess.exit(0)\\n' > /workspaces/.codespaces/shared/codespaceStatusTool.js && chmod +x /workspaces/.codespaces/shared/codespaceStatusTool.js",
-
-  // 2) & 3) On every start, scrub any injected settings and remove the Codespaces extension
-  "postStartCommand": "bash -lc ' \
-    set -e; \
-    # remove any terminal.integrated* overrides from machine settings \
-    P=~/.vscode-remote/data/Machine/settings.json; \
-    mkdir -p $(dirname \"$P\"); \
-    python3 - \"$P\" <<\"PY\" || true \
-import json, os, sys; p=sys.argv[1]; d={}; \
-try: d=json.load(open(p)) \
-except: d={}; \
-for k in list(d.keys()): \
-    if k.startswith(\"terminal.integrated\"): del d[k] \
-d[\"terminal.integrated.defaultProfile.linux\"]=\"bash\"; \
-d[\"terminal.integrated.profiles.linux\"]={\"bash\": {\"path\": \"/bin/bash\", \"args\": [\"-l\"]}}; \
-os.makedirs(os.path.dirname(p), exist_ok=True); json.dump(d, open(p, \"w\"), indent=2) \
-PY \
-    ; \
-    # remove Codespaces extension if present (often injects the helper) \
-    rm -rf ~/.vscode-remote/extensions/github.codespaces-* || true \
-  '"
+    "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {},
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-azuretools.vscode-docker",
+				"ms-python.autopep8",
+				"ms-python.pylint",
+				"analytic-signal.preview-pdf",
+				"grapecity.gc-excelviewer",
+				"github.copilot",
+				"github.copilot-chat",
+				"mechatroner.rainbow-csv"
+			],
+			"settings": {
+				"workbench.colorTheme": "Default Dark+",
+				"editor.rulers": [80],
+				"workbench.iconTheme": "vs-seti"
+			}
+		}
+	},
+	
+    "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh",
+    "remoteUser": "vscode"
 }
