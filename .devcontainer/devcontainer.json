@@ -1,29 +1,40 @@
 {
-    "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
-    "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "features": {},
-	
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"ms-toolsai.jupyter",
-				"ms-azuretools.vscode-docker",
-				"ms-python.autopep8",
-				"ms-python.pylint",
-				"analytic-signal.preview-pdf",
-				"grapecity.gc-excelviewer",
-				"github.copilot",
-				"github.copilot-chat",
-				"mechatroner.rainbow-csv"
-			],
-			"settings": {
-				"workbench.colorTheme": "Default Dark+",
-				"editor.rulers": [80],
-				"workbench.iconTheme": "vs-seti"
-			}
-		}
-	},
-	
-    "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh"
+  "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {},
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker",
+        "ms-python.autopep8",
+        "ms-python.pylint",
+        "analytic-signal.preview-pdf",
+        "grapecity.gc-excelviewer",
+        "github.copilot",
+        "github.copilot-chat",
+        "mechatroner.rainbow-csv"
+      ],
+      "settings": {
+        "workbench.colorTheme": "Default Dark+",
+        "editor.rulers": [80],
+        "workbench.iconTheme": "vs-seti",
+
+        // --- IMPORTANT: force terminal to use bash ---
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": { "path": "/bin/bash", "args": ["-l"] },
+          "zsh": { "path": "/usr/bin/zsh", "args": ["-l"], "overrideName": true }
+        },
+
+        // Optional: avoid issues with shell integration
+        "terminal.integrated.shellIntegration.enabled": true
+      }
+    }
+  },
+
+  // Fallback: create a harmless helper script so VS Code won't fail if it tries to call it
+  "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh && mkdir -p /workspaces/.codespaces/shared && printf '#!/usr/bin/env node\\nprocess.exit(0)\\n' > /workspaces/.codespaces/shared/codespaceStatusTool.js && chmod +x /workspaces/.codespaces/shared/codespaceStatusTool.js"
 }
