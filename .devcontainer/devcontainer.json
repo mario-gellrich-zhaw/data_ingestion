@@ -25,6 +25,5 @@
 		}
 	},
 	
-    "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh",
-    "remoteUser": "vscode"
+    "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh"
 }
