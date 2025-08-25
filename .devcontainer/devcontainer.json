@@ -8,21 +8,30 @@
             "moby": "true"
         }
     },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-python.python",
-                "ms-toolsai.jupyter",
-                "ms-azuretools.vscode-docker",
-                "ms-python.autopep8",
-                "ms-python.pylint",
-                "analytic-signal.preview-pdf"
-            ],
-            "settings": {
-                "terminal.integrated.shell.linux": "/bin/bash"
-            }
-        }
-    },
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"ms-azuretools.vscode-docker",
+				"ms-python.autopep8",
+				"ms-python.pylint",
+				"analytic-signal.preview-pdf",
+				"grapecity.gc-excelviewer",
+				"github.copilot",
+				"github.copilot-chat",
+				"mechatroner.rainbow-csv"
+			],
+			"settings": {
+				"workbench.colorTheme": "Default Dark+",
+				"editor.rulers": [80],
+				"workbench.iconTheme": "vs-seti",
+				"terminal.integrated.shell.linux": "/bin/bash"
+			}
+		}
+	},
+	
     "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh",
     "remoteUser": "vscode"
 }

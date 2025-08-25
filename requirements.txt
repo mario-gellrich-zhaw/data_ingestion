@@ -35,3 +35,4 @@ pykafka
 flask
 feedparser
 wordcloud
+lxml
