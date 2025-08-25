@@ -1,0 +1,60 @@
+MinergieProvisorischZürich 8053Erneuerung, MFHGebäude ZH-10730, ... (3)
+MinergieDefinitivEsslingen 8133Erneuerung, EFHGebäude ZH-10336
+Minergie-A-ECOProvisorischBolligen 3065Neubau, SchuleGebäude BE-059-A-ECO
+MinergieProvisorischLausanne 1010Neubau, MFHGebäude VD-4577
+MinergieProvisorischYverdon-les-Bains 1400Neubau, MFHGebäude VD-4576
+Minergie-AProvisorischOriglio 6945Erneuerung, EFHGebäude TI-197-A
+Minergie-P-ECODefinitivNyon 1260Neubau, Verkauf / MFH / LagerGebäude VD-170-P-ECO, ... (3)
+Minergie-ECODefinitivRegensdorf 8105Neubau, MFHGebäude ZH-334-ECO
+Minergie-ECODefinitivRegensdorf 8105Neubau, MFHGebäude ZH-335-ECO
+Minergie-ECODefinitivRegensdorf 8105Neubau, MFHGebäude ZH-336-ECO
+Minergie-ECODefinitivRegensdorf 8105Neubau, MFHGebäude ZH-337-ECO
+Minergie-ECODefinitivRegensdorf 8105Neubau, MFHGebäude ZH-338-ECO
+MinergieProvisorischBasel 4058Erneuerung, Restaurant / Verwaltung / MFHGebäude BS-231
+Minergie-PDefinitivCourtételle 2852Neubau, EFHGebäude JU-188-P
+Minergie-PProvisorischMassongex 1869Neubau, MFHGebäude VS-243-P, ... (2)
+Minergie-PProvisorischMassongex 1869Neubau, MFHGebäude VS-242-P
+Minergie-PProvisorischMassongex 1869Neubau, MFHGebäude VS-241-P
+Minergie-PProvisorischMassongex 1869Neubau, MFHGebäude VS-240-P
+Minergie-PDefinitivDottikon 5605Neubau, MFHGebäude AG-524-P, ... (2)
+Minergie-PDefinitivHägglingen 5607Neubau, EFHGebäude AG-761-P
+Minergie-PDefinitivKlosters 7250Neubau, EFH / HallenbadGebäude GR-195-P
+MinergieDefinitivWeinfelden 8570Neubau, EFHGebäude TG-3279
+Minergie-AProvisorischDallenwil 6383Neubau, MFHGebäude NW-024-A
+MinergieProvisorischHergiswil 6052Neubau, MFHGebäude NW-402
+Minergie-PDefinitivInterlaken 3800Neubau, Verwaltung / MFHGebäude BE-595-P
+Minergie-PDefinitivInterlaken 3800Neubau, Verkauf / MFHGebäude BE-594-P
+MinergieProvisorischKaisten 5082Neubau, EFHGebäude AG-6455, ... (3)
+MinergieProvisorischKaisten 5082Neubau, EFHGebäude AG-6452, ... (3)
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6451
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6450
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6449
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6448
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6447
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6446
+MinergieProvisorischKaisten 5082Neubau, MFHGebäude AG-6445
+Minergie-PProvisorischWettingen 5430Neubau, MFHGebäude AG-1071-P
+Minergie-PProvisorischWettingen 5430Neubau, MFHGebäude AG-1070-P
+Minergie-PProvisorischWettingen 5430Neubau, MFHGebäude AG-1069-P
+Minergie-PProvisorischWettingen 5430Neubau, MFHGebäude AG-1068-P
+MinergieDefinitivAltendorf 8852Neubau, MFHGebäude SZ-1341
+Minergie-PProvisorischOberlunkhofen 8917Neubau, MFHGebäude AG-1067-P
+MinergieDefinitivAltendorf 8852Neubau, MFHGebäude SZ-1340
+Minergie-PDefinitivLausanne 1004Erneuerung, MFHGebäude VD-276-P, ... (3)
+Minergie-PProvisorischAgno 6982Neubau, MFHGebäude TI-321-P
+MinergieProvisorischKüssnacht 6403Neubau, MFHGebäude SZ-1502
+MinergieProvisorischLa Tour-de-Peilz 1814Neubau, MFHGebäude VD-4575
+Minergie-PDefinitivSalgesch 3970Neubau, Schule / SportbauGebäude VS-162-P
+MinergieDefinitivNaters 3904Neubau, EFHGebäude VS-2967
+MinergieDefinitivBrig 3900Neubau, EFHGebäude VS-2837
+Minergie-PDefinitivMuri 5630Neubau, MFHGebäude AG-785-P
+Minergie-PDefinitivMuri 5630Neubau, MFHGebäude AG-784-P
+Minergie-ECODefinitivWinterthur 8400Erneuerung, VerwaltungGebäude ZH-331-ECO
+Minergie-P-ECODefinitivWinterthur 8400Neubau, Verwaltung / MFHGebäude ZH-312-P-ECO
+Minergie-P-ECOProvisorischZürich 8051Neubau, Schule / SportbauGebäude ZH-438-P-ECO
+MinergieProvisorischHeerbrugg 9435Neubau, VerwaltungGebäude SG-2445
+Minergie-PProvisorischAadorf 8355Neubau, MFHGebäude TG-588-P
+MinergieProvisorischCrans VD 1299Neubau, EFHGebäude VD-4574
+Minergie-PDefinitivEich 6205Neubau, EFHGebäude LU-075-P
+Minergie-PDefinitivEich 6205Neubau, MFHGebäude LU-073-P
+Minergie-PDefinitivEich 6205Neubau, MFHGebäude LU-072-P
