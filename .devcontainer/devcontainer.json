@@ -2,7 +2,6 @@
     "name": "Python 3.11 with Jupyter, Docker and PDF Preview",
     "image": "mcr.microsoft.com/devcontainers/python:3.11",
     "features": {},
-	
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -24,7 +23,6 @@
 			}
 		}
 	},
-	
     "postCreateCommand": "pip install -r requirements.txt && chmod +x install_chrome_and_chromedriver.sh && ./install_chrome_and_chromedriver.sh",
     "remoteUser": "vscode"
 }
