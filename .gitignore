@@ -15,3 +15,8 @@ __pycache__/
 
 # Flickr credentials
 04_Flickr_WebAPI/credentials.json
+
+# Downloaded Chrome/ChromeDriver artifacts
+google-chrome-stable_current_amd64.deb
+chromedriver-linux64.zip
+chromedriver-linux64/
