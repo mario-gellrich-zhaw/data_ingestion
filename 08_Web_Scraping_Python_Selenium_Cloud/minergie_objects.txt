@@ -1,0 +1,51 @@
+ZH-10418 | Minergie Definitiv | Seuzach 8472 | Neubau, EFH | Gebäude ZH-10418
+SZ-1544 | Minergie Provisorisch | Reichenburg 8864 | Neubau, MFH | Gebäude SZ-1544
+SZ-1542 | Minergie Provisorisch | Reichenburg 8864 | Neubau, MFH | Gebäude SZ-1542
+SZ-1543 | Minergie Provisorisch | Reichenburg 8864 | Neubau, MFH | Gebäude SZ-1543
+GL-205 | Minergie Provisorisch | Ennenda 8755 | Neubau, MFH | Gebäude GL-205
+SG-088-A | Minergie-A Definitiv | Wil 9500 | Neubau, Schule | Gebäude SG-088-A
+VD-4849 | Minergie Provisorisch | Ecublens VD 1024 | Neubau, MFH | Gebäude VD-4849
+AR-335 | Minergie Definitiv | Rehetobel 9038 | Erneuerung, EFH | Gebäude AR-335
+ZH-10972 | Minergie Definitiv | Sennhof 8482 | Erneuerung, MFH | Gebäude ZH-10972
+SG-294-P | Minergie-P Definitiv | Altenrhein 9423 | Neubau, MFH | Gebäude SG-294-P
+SG-290-P | Minergie-P Definitiv | Oberriet 9643 | Neubau, MFH | Gebäude SG-290-P
+AI-025-P | Minergie-P Definitiv | Appenzell 9050 | Neubau, MFH | Gebäude AI-025-P, ... (2)
+AI-025-P | Minergie-P Definitiv | Appenzell 9050 | Neubau, MFH | Gebäude AI-025-P, ... (2)
+FL-081-P | Minergie-P Definitiv | Vaduz 9490 | Neubau, Schule | Gebäude FL-081-P
+FL-080-P | Minergie-P Definitiv | Vaduz 9490 | Neubau, Schule | Gebäude FL-080-P
+TI-338-P | Minergie-P Provisorisch | Massagno 6900 | Neubau, MFH | Gebäude TI-338-P
+AR-044-P | Minergie-P Definitiv | Speicher 9063 | Neubau, EFH | Gebäude AR-044-P
+AG-102-A | Minergie-A Provisorisch | Aarau 5000 | Neubau, EFH / Verwaltung / Restaurant | Gebäude AG-102-A
+AG-6554 | Minergie Provisorisch | Küttigen 5024 | Neubau, MFH | Gebäude AG-6554
+AG-6553 | Minergie Provisorisch | Küttigen 5024 | Neubau, MFH | Gebäude AG-6553
+VD-3344 | Minergie Definitiv | Pully 1009 | Neubau, MFH | Gebäude VD-3344
+VD-3343 | Minergie Definitiv | Pully 1009 | Neubau, MFH | Gebäude VD-3343
+VS-279-P | Minergie-P Provisorisch | Savièse 1965 | Neubau, Schule | Gebäude VS-279-P
+VS-277-P | Minergie-P Provisorisch | Savièse 1965 | Neubau, Schule / Sportbau | Gebäude VS-277-P, ... (2)
+VD-4848 | Minergie Provisorisch | Arzier-Le Muids 1273 | Neubau, MFH | Gebäude VD-4848
+VD-4847 | Minergie Provisorisch | Arzier-Le Muids 1273 | Neubau, MFH | Gebäude VD-4847
+VS-3182 | Minergie Provisorisch | Brig-Glis 3902 | Neubau, EFH | Gebäude VS-3182
+VD-4846 | Minergie Provisorisch | Prilly 1008 | Neubau, MFH | Gebäude VD-4846
+VD-4845 | Minergie Provisorisch | Ecublens VD 1024 | Neubau, MFH | Gebäude VD-4845
+VD-566-P | Minergie-P Provisorisch | St-Cergue 1264 | Neubau, MFH / Verwaltung | Gebäude VD-566-P
+TG-3152 | Minergie Definitiv | Warth 8532 | Neubau, EFH | Gebäude TG-3152
+TG-550-P | Minergie-P Definitiv | Kreuzlingen 8280 | Neubau, EFH / Verwaltung / Verkauf | Gebäude TG-550-P
+TG-628-P | Minergie-P Provisorisch | Niederneunforn 8525 | Neubau, EFH | Gebäude TG-628-P, ... (2)
+SH-081-P | Minergie-P Provisorisch | Schaffhausen 8200 | Neubau, Verwaltung | Gebäude SH-081-P
+SH-080-P | Minergie-P Provisorisch | Ramsen 8262 | Neubau, Schule | Gebäude SH-080-P
+TG-627-P | Minergie-P Provisorisch | Berlingen 8267 | Erneuerung, EFH | Gebäude TG-627-P
+VS-167-P | Minergie-P Definitiv | Brig 3900 | Neubau, MFH | Gebäude VS-167-P
+VD-4588 | Minergie Definitiv | Prangins 1197 | Erneuerung, EFH | Gebäude VD-4588
+BE-3152 | Minergie Definitiv | Heimberg 3627 | Neubau, MFH | Gebäude BE-3152
+BE-3153 | Minergie Definitiv | Heimberg 3627 | Neubau, MFH | Gebäude BE-3153
+BE-3154 | Minergie Definitiv | Heimberg 3627 | Neubau, MFH | Gebäude BE-3154
+BE-3151 | Minergie Definitiv | Heimberg 3627 | Neubau, MFH | Gebäude BE-3151
+VD-4842 | Minergie Provisorisch | Echallens 1040 | Neubau, EFH | Gebäude VD-4842, ... (3)
+VS-3181 | Minergie Provisorisch | Chermignon 3971 | Neubau, EFH | Gebäude VS-3181
+GE-1977 | Minergie Provisorisch | Onex 1213 | Erneuerung, MFH | Gebäude GE-1977, ... (3)
+GE-1973 | Minergie Provisorisch | Aïre 1219 | Neubau, EFH | Gebäude GE-1973, ... (4)
+ZH-10968 | Minergie Provisorisch | Winterthur 8404 | Neubau, MFH | Gebäude ZH-10968, ... (4)
+ZH-274-P-ECO | Minergie-P-ECO Definitiv | Zürich 8052 | Neubau, MFH / Verwaltung / Restaurant / Versammlungslokal | Gebäude ZH-274-P-ECO
+BL-1325 | Minergie Provisorisch | Böckten 4461 | Neubau, EFH | Gebäude BL-1325
+BL-1324 | Minergie Provisorisch | Böckten 4461 | Neubau, EFH | Gebäude BL-1324
+BL-1319 | Minergie Provisorisch | Böckten 4461 | Neubau, EFH | Gebäude BL-1319
