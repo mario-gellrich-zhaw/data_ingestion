@@ -8,7 +8,6 @@ pypdf
 beautifulsoup4
 Pillow
 folium
-pycoingecko
 opencv-python
 pytesseract
 nltk
